@@ -9,7 +9,7 @@ export const siteConfig = {
   foregroundColor: "#ffffff",
   social: {
     email: "snooknate.ns@gmail.com",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/nathan-snook-1707a0206/",
     twitter: "",
     github: "https://github.com/w0418773/",
   },
