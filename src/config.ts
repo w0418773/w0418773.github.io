@@ -41,7 +41,8 @@ export const siteConfig = {
         for invalid or misspelled inputs, to make the program more reliable and user-friendly.",
       link: "https://github.com/w0418773/Recipe-Scrapper-Bot",
       skills: ["Python", "Tkinter", "HTML Requests", "GUI", "Web Scraping", "APIs"],
-      image: "src/res/Recipe_Scrapper.png",
+      // image: "src/res/Recipe_Scrapper.png", Source for development only
+      image: "https://github.com/w0418773/w0418773.github.io/blob/master/src/res/Recipe_Scrapper.png?raw=true",
     },
     {
       name: "Lottery Number Generator",
@@ -56,7 +57,8 @@ export const siteConfig = {
       repetitive and more engaging for users.",
       link: "https://github.com/w0418773/Lottery-Bot",
       skills: ["Python", "Tkinter", "HTML Requests", "GUI", "Web Scraping", "APIs", "Data Analysis"],
-      image: "src/res/Lottery_Bot.png",
+      // image: "src/res/Lottery_Bot.png", Source for development only
+      image: "https://github.com/w0418773/w0418773.github.io/blob/master/src/res/Lottery_Bot.png?raw=true",
     },
     {
       name: "Wordle Solver",
@@ -73,7 +75,8 @@ export const siteConfig = {
         solving experience.",
       link: "https://github.com/w0418773/Wordle-Solver",
       skills: ["C#", "Event-Driven Programming", "Data Structures", "File I/O"],
-      image: "src/res/Wordle_Solver.png",
+      // image: "src/res/Wordle_Solver.png", Source for development only
+      image: "https://github.com/w0418773/w0418773.github.io/blob/master/src/res/Wordle_Solver.png?raw=true",
     },
     {
       name: "Flight Tracker",
@@ -90,7 +93,8 @@ export const siteConfig = {
       usability.",
       link: "https://github.com/w0418773/Flight-Tracker",
       skills: ["JavaScript", "Asynchronous Programming", "GeoJSON", "HTML", "CSS", "APIs"],
-      image: "src/res/Flight_Tracker.png",
+      // image: "src/res/Flight_Tracker.png", Source for development only
+      image: "https://github.com/w0418773/w0418773.github.io/blob/master/src/res/Flight_Tracker.png?raw=true",
     },
     {
       name: "Discord Movie Bot",
@@ -106,7 +110,8 @@ export const siteConfig = {
       like SQLite would improve data handling, scalability, and reliability.",
       link: "https://github.com/w0418773/MovieBot",
       skills: ["Python", "File I/O", "Discord API", "CRUD"],
-      image: "src/res/Discord_Bot.png",
+      // image: "src/res/Discord_Bot.png", Source for development only
+      image: "https://github.com/w0418773/w0418773.github.io/blob/master/src/res/Discord_Bot.png?raw=true",
     },
   ],
   experience: [
