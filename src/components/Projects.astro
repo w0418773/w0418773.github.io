@@ -21,7 +21,7 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
             />
           </div>
 
-          <div class="lg:col-span-8">
+          <div class="lg:col-span-8">   
             <div class="space-y-8">
               {siteConfig.projects.map((project, index) => {
                 const Component = project.link ? "a" : "div";
@@ -75,43 +75,57 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
                             {project.name}
                           </h3>
                         </div>
-                        <p
-                          class="text-base sm:text-lg"
-                          style={`color: ${siteConfig.accentColor}`}
-                        >
-                          Description:
-                        </p> 
-                        <p
-                          class={`text-base sm:text-lg text-gray-600 leading-relaxed ${project.link ? "pr-12 sm:pr-14 md:pr-16" : ""}`}
-                        >
-                          {project.description}
-                        </p>
-                        <p
-                          class="text-base sm:text-lg"
-                          style={`color: ${siteConfig.accentColor}`}
-                        >
-                          Reflection:
-                        </p> 
-                        <p
-                          class={`text-base sm:text-lg text-gray-600 leading-relaxed ${project.link ? "pr-12 sm:pr-14 md:pr-16" : ""}`}
-                        >
-                          {project.reflection}
-                        </p>
-
-                        {project.skills && project.skills.length > 0 && (
-                          <div class="flex flex-wrap gap-1.5 sm:gap-2 pt-2">
-                            {project.skills.map((skill) => (
-                              <span
-                                class={`px-2.5 sm:px-3 py-1 sm:py-1.5rounded-md sm:rounded-lg text-xs sm:text-sm font-medium transition-all duration-300 ${
-                                  project.link ? "group-hover:bg-gray-800" : ""
-                                }`}
-                                style={`background-color: ${siteConfig.accentColor}; color: ${siteConfig.textColor}`}
-                              >
-                                {skill}
-                              </span>
-                            ))}
+                        {/* Description right, image left, reflection below */}
+                        <div class="flex flex-col md:flex-row gap-6 items-start">
+                          {project.image && (
+                            <img
+                              src={project.image}
+                              alt={project.name}
+                              width="300" height="300"
+                              class="rounded-lg object-cover flex-shrink-0"
+                            />
+                          )}
+                          <div class="flex-1 space-y-2">
+                            <p
+                              class="text-base sm:text-lg"
+                              style={`color: ${siteConfig.accentColor}`}
+                            >
+                              Description:
+                            </p> 
+                            <p
+                              class={`text-base sm:text-lg text-gray-600 leading-relaxed ${project.link ? "pr-12 sm:pr-14 md:pr-16" : ""}`}
+                            >
+                              {project.description}
+                            </p>
                           </div>
-                        )}
+                        </div>
+                        <div class="pt-4">
+                          <p
+                            class="text-base sm:text-lg"
+                            style={`color: ${siteConfig.accentColor}`}
+                          >
+                            Reflection:
+                          </p> 
+                          <p
+                            class={`text-base sm:text-lg text-gray-600 leading-relaxed ${project.link ? "pr-12 sm:pr-14 md:pr-16" : ""}`}
+                          >
+                            {project.reflection}
+                          </p>
+                          {project.skills && project.skills.length > 0 && (
+                            <div class="flex flex-wrap gap-1.5 sm:gap-2 pt-2 mt-4">
+                              {project.skills.map((skill) => (
+                                <span
+                                  class={`px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-md sm:rounded-lg text-xs sm:text-sm font-medium transition-all duration-300 ${
+                                    project.link ? "group-hover:bg-gray-800" : ""
+                                  }`}
+                                  style={`background-color: ${siteConfig.accentColor}; color: ${siteConfig.textColor}`}
+                                >
+                                  {skill}
+                                </span>
+                              ))}
+                            </div>
+                          )}
+                        </div>
                       </div>
                     </Component>
                   </div>
