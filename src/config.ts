@@ -40,6 +40,24 @@ export const siteConfig = {
         ingredients should appear in each recipe. I’d also like to implement error handling, such as checking \
         for invalid or misspelled inputs, to make the program more reliable and user-friendly.",
       link: "https://github.com/w0418773/Recipe-Scrapper-Bot",
+      skills: ["React", "State Management", "Asynchronous Programming", "Conditional Rendering", "Algorithmic", "DOM Manipulation"],
+      // image: "src/res/Recipe_Scrapper.png", Source for development only
+      image: "https://github.com/w0418773/w0418773.github.io/blob/master/src/res/Recipe_Scrapper.png?raw=true",
+    },
+    {
+      name: "Recipe Scrapper Bot",
+      description:
+        "The idea for this project came from the common problem of having a few ingredients on hand but \
+        not knowing what to cook. I wanted to create a program where you could simply enter the ingredients \
+        you have, and it would suggest a variety of recipes you can make with them.",
+      reflection:
+        "After developing this program and reflecting on it, I realized that adding a filtering \
+        system for the recipe results would be a valuable improvement. For example, sorting recipes by average \
+        user reviews could help prioritize higher quality options. Additionally, it would be useful to ensure \
+        that the suggested recipes closely match the user's provided ingredients. Ideally, most of the listed \
+        ingredients should appear in each recipe. I’d also like to implement error handling, such as checking \
+        for invalid or misspelled inputs, to make the program more reliable and user-friendly.",
+      link: "https://github.com/w0418773/Recipe-Scrapper-Bot",
       skills: ["Python", "Tkinter", "HTML Requests", "GUI", "Web Scraping", "APIs"],
       // image: "src/res/Recipe_Scrapper.png", Source for development only
       image: "https://github.com/w0418773/w0418773.github.io/blob/master/src/res/Recipe_Scrapper.png?raw=true",
