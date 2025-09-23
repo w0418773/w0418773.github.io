@@ -27,22 +27,21 @@ export const siteConfig = {
     "Communication and Interpersonal Skills", "Adaptability and Multitasking"],
   projects: [
     {
-      name: "Recipe Scrapper Bot",
+      name: "Wordle Solver 2.0",
       description:
-        "The idea for this project came from the common problem of having a few ingredients on hand but \
-        not knowing what to cook. I wanted to create a program where you could simply enter the ingredients \
-        you have, and it would suggest a variety of recipes you can make with them.",
+        "I rebuilt my original Wordle Solver as a web-based application using React JS. The solver helps \
+        players efficiently crack the puzzle by suggesting possible words based on user feedback from each \
+        guess. Instead of a Windows application, this version features a clean, interactive UI where users \
+        can enter results directly into the browser. The app then dynamically updates the word list and \
+        narrows down the best possible solutions in real time.",
       reflection:
-        "After developing this program and reflecting on it, I realized that adding a filtering \
-        system for the recipe results would be a valuable improvement. For example, sorting recipes by average \
-        user reviews could help prioritize higher quality options. Additionally, it would be useful to ensure \
-        that the suggested recipes closely match the user's provided ingredients. Ideally, most of the listed \
-        ingredients should appear in each recipe. I’d also like to implement error handling, such as checking \
-        for invalid or misspelled inputs, to make the program more reliable and user-friendly.",
-      link: "https://github.com/w0418773/Recipe-Scrapper-Bot",
+        "Rebuilding this project in React gave me the chance to transform a functional script into a \
+        polished user-friendly web app. The shift to component-based development made the codebase easier \
+        to scale, while state management allowed for a smoother solving process.",
+      link: "https://w0418773.github.io/Wordle-Solver-2.0/",
       skills: ["React", "State Management", "Asynchronous Programming", "Conditional Rendering", "Algorithmic", "DOM Manipulation"],
-      // image: "src/res/Recipe_Scrapper.png", Source for development only
-      image: "https://github.com/w0418773/w0418773.github.io/blob/master/src/res/Recipe_Scrapper.png?raw=true",
+      // image: "src/res/Wordle_Solver_2.0.png", Source for development only
+      image: "https://github.com/w0418773/w0418773.github.io/blob/master/src/res/Wordle_Solver_2.0.png?raw=true",
     },
     {
       name: "Recipe Scrapper Bot",
