@@ -27,6 +27,27 @@ export const siteConfig = {
     "Communication and Interpersonal Skills", "Adaptability and Multitasking"],
   projects: [
     {
+      name: "Weather Wise",
+      description:
+        "Weather Wise is a modern, responsive weather app that delivers real-time weather data and \
+        short-term forecasts through a clean, intuitive interface. It features dynamic, location-based \
+        backgrounds, smooth animations, and automatic geolocation to instantly show local conditions. \
+        Designed with a focus on performance and usability, the app integrates multiple APIs for \
+        accurate data, reverse geocoding, and stunning visuals. Weather Wise showcases practical \
+        React development, asynchronous data handling, and attention to user experience across all \
+        devices.",
+      reflection:
+        "Building Weather Wise strengthened my understanding of API integration, asynchronous data \
+        handling, and responsive front-end design in React. I learned how to combine multiple data \
+        sources to create a seamless, visually engaging experience while maintaining strong performance. \
+        One thing I would change is extracting each component into separate files for a more scalable \
+        approach.",
+      link: "https://w0418773.github.io/Weather-App/",
+      skills: ["React", "JavaScript", "APIs", "Python RESTful API", "UI Design", "CSS", "HTML"],
+      // image: "src/res/Wordle_Solver_2.0.png", Source for development only
+      image: "https://github.com/w0418773/w0418773.github.io/blob/master/src/res/Wordle_Solver_2.0.png?raw=true",
+    },
+    {
       name: "Wordle Solver 2.0",
       description:
         "I rebuilt my original Wordle Solver as a web-based application using React JS. The solver helps \
