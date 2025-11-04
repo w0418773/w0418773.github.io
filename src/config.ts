@@ -45,7 +45,7 @@ export const siteConfig = {
       link: "https://w0418773.github.io/Weather-App/",
       skills: ["React", "JavaScript", "APIs", "Python RESTful API", "UI Design", "CSS", "HTML"],
       // image: "src/res/Wordle_Solver_2.0.png", Source for development only
-      image: "https://github.com/w0418773/w0418773.github.io/blob/master/src/res/Wordle_Solver_2.0.png?raw=true",
+      image: "https://github.com/w0418773/w0418773.github.io/blob/master/src/res/Weather_App.png?raw=true",
     },
     {
       name: "Wordle Solver 2.0",
