@@ -154,6 +154,20 @@ export const siteConfig = {
   ],
   experience: [
     {
+      company: "Concentrix",
+      title: "Technical Advisor II",
+      dateRange: "October 2025 - Present",
+      bullets: [
+        "Precisely reproduced, troubleshooted, and documented software defects before escalating them, \
+        which significantly accelerated resolution times and enhanced QA workflows.",
+        "Isolated root causes by identifying patterns in recurring issues, reducing repeat errors and \
+        improved product stability. Empowered customers with self-service solutions to resolve future \
+        issues independently.",
+        "Managed 30 - 50+ technical support cases daily maintaining detailed case documentation and \
+        consistently achieving 95%+ customer satisfaction.",
+      ],
+    },
+    {
       company: "Eurekatec",
       title: "Junior Developer",
       dateRange: "April 2022 - September 2022",
