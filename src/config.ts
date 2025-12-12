@@ -155,7 +155,7 @@ export const siteConfig = {
   experience: [
     {
       company: "Concentrix",
-      title: "Technical Advisor II",
+      title: "Technical Support Advisor II",
       dateRange: "October 2025 - Present",
       bullets: [
         "Precisely reproduced, troubleshooted, and documented software defects before escalating them, \
