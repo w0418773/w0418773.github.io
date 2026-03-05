@@ -156,7 +156,7 @@ export const siteConfig = {
     {
       company: "Concentrix",
       title: "Technical Support Advisor II",
-      dateRange: "October 2025 - Present",
+      dateRange: "October 2025 - February 2026",
       bullets: [
         "Precisely reproduced, troubleshooted, and documented software defects before escalating them, \
         which significantly accelerated resolution times and enhanced QA workflows.",
