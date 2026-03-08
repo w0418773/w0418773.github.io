@@ -45,7 +45,8 @@ export const siteConfig = {
       link: "https://w0418773.github.io/Weather-App/",
       skills: ["React", "JavaScript", "APIs", "Python RESTful API", "UI Design", "CSS", "HTML"],
       // image: "src/res/Wordle_Solver_2.0.png", Source for development only
-      image: "https://github.com/w0418773/w0418773.github.io/blob/master/src/res/Weather_App.png?raw=true",
+      // image: "https://github.com/w0418773/w0418773.github.io/blob/master/src/res/Weather_App.png?raw=true", Updated to new image link
+      image: "https://raw.githubusercontent.com/w0418773/w0418773.github.io/refs/heads/master/src/res/Weather_App.png",
     },
     {
       name: "Wordle Solver 2.0",
@@ -62,7 +63,8 @@ export const siteConfig = {
       link: "https://w0418773.github.io/Wordle-Solver-2.0/",
       skills: ["React", "State Management", "Asynchronous Programming", "Conditional Rendering", "Algorithmic", "DOM Manipulation"],
       // image: "src/res/Wordle_Solver_2.0.png", Source for development only
-      image: "https://github.com/w0418773/w0418773.github.io/blob/master/src/res/Wordle_Solver_2.0.png?raw=true",
+      // image: "https://github.com/w0418773/w0418773.github.io/blob/master/src/res/Wordle_Solver_2.0.png?raw=true", Updated to new image link
+      image: "https://raw.githubusercontent.com/w0418773/w0418773.github.io/refs/heads/master/src/res/Wordle_Solver_2.0.png"
     },
     {
       name: "Recipe Scrapper Bot",
@@ -80,7 +82,8 @@ export const siteConfig = {
       link: "https://github.com/w0418773/Recipe-Scrapper-Bot",
       skills: ["Python", "Tkinter", "HTML Requests", "GUI", "Web Scraping", "APIs"],
       // image: "src/res/Recipe_Scrapper.png", Source for development only
-      image: "https://github.com/w0418773/w0418773.github.io/blob/master/src/res/Recipe_Scrapper.png?raw=true",
+      // image: "https://github.com/w0418773/w0418773.github.io/blob/master/src/res/Recipe_Scrapper.png?raw=true", Updated to new image link
+      image: "https://raw.githubusercontent.com/w0418773/w0418773.github.io/refs/heads/master/src/res/Recipe_Scrapper.png",
     },
     {
       name: "Lottery Number Generator",
@@ -96,7 +99,8 @@ export const siteConfig = {
       link: "https://github.com/w0418773/Lottery-Bot",
       skills: ["Python", "Tkinter", "HTML Requests", "GUI", "Web Scraping", "APIs", "Data Analysis"],
       // image: "src/res/Lottery_Bot.png", Source for development only
-      image: "https://github.com/w0418773/w0418773.github.io/blob/master/src/res/Lottery_Bot.png?raw=true",
+      // image: "https://github.com/w0418773/w0418773.github.io/blob/master/src/res/Lottery_Bot.png?raw=true", Updated to new image link
+      image: "https://raw.githubusercontent.com/w0418773/w0418773.github.io/refs/heads/master/src/res/Lottery_Bot.png",
     },
     {
       name: "Wordle Solver",
@@ -114,7 +118,8 @@ export const siteConfig = {
       link: "https://github.com/w0418773/Wordle-Solver",
       skills: ["C#", "Event-Driven Programming", "Data Structures", "File I/O"],
       // image: "src/res/Wordle_Solver.png", Source for development only
-      image: "https://github.com/w0418773/w0418773.github.io/blob/master/src/res/Wordle_Solver.png?raw=true",
+      // image: "https://github.com/w0418773/w0418773.github.io/blob/master/src/res/Wordle_Solver.png?raw=true", Updated to new image link
+      image: "https://raw.githubusercontent.com/w0418773/w0418773.github.io/refs/heads/master/src/res/Wordle_Solver.png",
     },
     {
       name: "Flight Tracker",
@@ -132,7 +137,8 @@ export const siteConfig = {
       link: "https://github.com/w0418773/Flight-Tracker",
       skills: ["JavaScript", "Asynchronous Programming", "GeoJSON", "HTML", "CSS", "APIs"],
       // image: "src/res/Flight_Tracker.png", Source for development only
-      image: "https://github.com/w0418773/w0418773.github.io/blob/master/src/res/Flight_Tracker.png?raw=true",
+      // image: "https://github.com/w0418773/w0418773.github.io/blob/master/src/res/Flight_Tracker.png?raw=true", Updated to new image link
+      image: "https://raw.githubusercontent.com/w0418773/w0418773.github.io/refs/heads/master/src/res/Flight_Tracker.png",
     },
     {
       name: "Discord Movie Bot",
@@ -149,7 +155,8 @@ export const siteConfig = {
       link: "https://github.com/w0418773/MovieBot",
       skills: ["Python", "File I/O", "Discord API", "CRUD"],
       // image: "src/res/Discord_Bot.png", Source for development only
-      image: "https://github.com/w0418773/w0418773.github.io/blob/master/src/res/Discord_Bot.png?raw=true",
+      // image: "https://github.com/w0418773/w0418773.github.io/blob/master/src/res/Discord_Bot.png?raw=true", Updated to new image link
+      image: "https://raw.githubusercontent.com/w0418773/w0418773.github.io/refs/heads/master/src/res/Discord_Bot.png",
     },
   ],
   experience: [
